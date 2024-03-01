@@ -18,7 +18,7 @@ function Weather() {
   };
 
   return (
-    <div className="relative z-10 h-screen flex flex-col pt-6 overflow-y-scroll">
+    <div className="relative z-10 h-[100svh] flex flex-col pt-6 overflow-y-scroll">
       <div className="relative flex justify-center p-8 min-[0px]:p-3 max-[468px]:p-3">
         <form
           className=" relative flex  z-10 overflow-hidden sm:w-1/2 md:w-1/3 min-[0px]:w-[80vw] min-[468px]:w-[70vw]"
