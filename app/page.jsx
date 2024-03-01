@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Page() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden overflow-y-scroll">
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-black/75 z-[1] h-full w-screen" />
 
       <Image
